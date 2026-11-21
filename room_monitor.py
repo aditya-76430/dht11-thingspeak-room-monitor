@@ -4,7 +4,7 @@ import requests
 
 COM_PORT = "COM3"  # Change this to your Arduino port
 BAUD_RATE = 9600
-WRITE_API_KEY = "AYQEEZZLJUKKHRG9"
+WRITE_API_KEY = "PASTE_YOUR_THINGSPEAK_WRITE_API_KEY_HERE"
 
 arduino = serial.Serial(COM_PORT, BAUD_RATE, timeout=2)
 time.sleep(2)
@@ -30,7 +30,7 @@ while True:
         humidity = float(humidity)
 
         response = requests.get(
-            "https://api.thingspeak.com/update?api_key=OJ77CXPVK6RD323H&field1=0",
+            "https://api.thingspeak.com/update",
             params={
                 "api_key": WRITE_API_KEY,
                 "field1": temperature,
