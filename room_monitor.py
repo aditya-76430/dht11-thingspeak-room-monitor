@@ -52,3 +52,5 @@ while True:
         print("Internet upload error:", error)
 
     time.sleep(20)
+    
+    
