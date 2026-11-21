@@ -114,7 +114,7 @@ When the upload succeeds, the terminal shows an `Uploaded:` message. Open the Th
 
 ## License
 
-This project is available under the MIT License.
+This project is free to use
 =======
 # dht11-thingspeak-room-monitor
 IoT room monitor using a DHT11 sensor, Arduino Mega, Python, and ThingSpeak. It reads temperature and humidity, uploads live data through USB serial communication, and displays remote charts that can be viewed on a phone or computer.
