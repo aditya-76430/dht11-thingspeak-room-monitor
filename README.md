@@ -113,4 +113,4 @@ When the upload succeeds, the terminal shows an `Uploaded:` message. Open the Th
 
 ## License
 
-This project is available under the MIT License.
+This Project is free to use.
